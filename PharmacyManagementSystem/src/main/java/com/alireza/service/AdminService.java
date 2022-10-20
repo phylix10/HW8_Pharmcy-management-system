@@ -26,7 +26,7 @@ public class AdminService {
     }
 
     public void deleteAdmin(Admin admin){
-        AdminRepository.deleteAdminById(admin);
+        AdminRepository.deleteAdmin(admin);
     }
 
     public Admin findSuperAdmin(String username){

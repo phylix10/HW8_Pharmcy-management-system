@@ -129,7 +129,7 @@ public class AdminRepository {
         return null;
     }
 
-    public static void deleteAdminById(Admin admin) {
+    public static void deleteAdmin(Admin admin) {
         try {
             Connection connection = DatabaseConnection.getInstance();
             PreparedStatement preparedStatement = connection.prepareStatement(DELETE_ADMIN_BY_ID_QUERY);
